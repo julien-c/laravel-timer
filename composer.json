@@ -1,0 +1,24 @@
+{
+    "name": "julien-c/timer",
+    "description": "Laravel-ish timers",
+    "keywords": ["laravel", "timer", "Laravel 4"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Chaumond",
+            "email": "chaumond@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/container": "4.0.x",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Timer": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
